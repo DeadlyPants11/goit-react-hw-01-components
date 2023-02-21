@@ -1,0 +1,22 @@
+.friend_list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  border: 1px solid black;
+  width: 300px;
+  gap: 15px;
+}
+
+.status {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: auto 0;
+}
