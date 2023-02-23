@@ -5,7 +5,7 @@ export const Statistics = ({ title, stats }) => {
   return (
     <section className={css.statistics}>
       <div className={css.container}>
-        <h2 className="title">{title}</h2>
+        {title && <h2 className="title">{title}</h2>}
         <ul className={css.stats_list}>
           {stats.map(({ id, label, percentage }) => (
             <li className={css.item} key={id}>
